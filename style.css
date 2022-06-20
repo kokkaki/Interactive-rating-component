@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 16% auto;
+    font-family: Overpass;
+    
+    
+}
+
+
+.img {
+    background-color: hsl(215, 20%, 21%);
+    padding: 1rem ;
+    border-radius: 3rem;
+    width: 1rem;
+}
+
+h2 {
+    font-weight: 700;
+    color: white;
+    margin-top: 10%;
+}
+
+p {
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    margin-top: 2%;
+}
+
+.container {
+    border-radius: 5%;
+    background-color: hsl(213, 20%, 18%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    width: 35vh;
+    padding: 2rem;
+    
+
+}
+
+.numbers {
+
+    letter-spacing: 1.5rem;
+    font-size: medium;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+.number1,
+.number2,
+.number3,
+.number4,
+.number5 {
+    background-color: hsl(215, 20%, 21%);
+    padding: 1.2rem;
+    border: none;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+}
+
+
+
+.number1:hover,
+.number2:hover,
+.number3:hover,
+.number4:hover,
+.number5:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.number1:active,
+.number2:active,
+.number3:active,
+.number4:active,
+.number5:active{
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer;
+    color :white;
+   
+}
+.number1:focus,
+.number2:focus,
+.number3:focus,
+.number4:focus,
+.number5:focus{
+    background-color:hsl(25, 97%, 53%);
+    color :white;
+
+}
+
+
+.Submit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5rem;
+    margin: 5% auto;
+    padding: 4% 40%;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+
+   
+}
+
+.Submit:hover {
+   background-color: hsl(0, 0%, 100%);
+   color: hsl(25, 97%, 53%);
+   cursor: pointer;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin: 1rem;
+    padding: 2%;
+    
+}
+
+h3 {
+    background-color:  hsl(215, 20%, 21%);
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    border-radius: 5rem;
+    margin: 5% 3%;
+    padding: 2% 13%;
+    
+}
+
+.thanks {
+    margin: 2rem 5rem;
+}
+
+.appreciate {
+    text-align: center;
+}
+
+
